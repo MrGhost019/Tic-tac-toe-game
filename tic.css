@@ -1,0 +1,79 @@
+ h1 {
+        color: rgb(8, 8, 8);
+        font-size: 45px;
+        font-family: 'Merriweather', serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+    }
+ 
+    /* 3*3 Grid */
+    #b1, #b2, #b3, #b4, #b5,
+    #b6, #b7, #b8, #b9 {
+        width: 80px;
+        height: 52px;
+        margin: auto;
+        border: 5px solid gray;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+    }
+ 
+    /* Reset Button */
+    #but {
+        box-sizing: border-box;
+        width: 95px;
+        height: 40px;
+        border: 5px solid rgb(3, 44, 85);
+        margin: auto;
+        border-radius: 4px;
+        font-family: 'Merriweather', serif;
+        font-family: 'Work Sans', sans-serif;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+ 
+        background-color: dodgerblue;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+ 
+    /* Player turn space */
+    #print {
+        font-family: 'Merriweather', serif;
+        font-family: 'Work Sans', sans-serif;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+ 
+        color: dodgerblue;
+        font-size: 20px;
+    }
+ 
+    /* Main Container */
+    #main {
+        text-align: center;
+    }
+ 
+    /* Game Instruction Text */
+    #ins {
+        font-family: 'Merriweather', serif;
+        font-family: 'Work Sans', sans-serif;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+             
+        color: dodgerblue;
+        font-size: 17px;
+    }
+
+    .container {
+        background: aliceblue;
+        opacity: 80%;
+        margin: 35%;
+        border-radius: 40px;
+        border: 5px;
+        margin-bottom: 30%;
+
+    }
+
+    body {
+        background-image: ('image\thevoid.avif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
